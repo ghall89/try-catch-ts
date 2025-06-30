@@ -48,5 +48,5 @@ function yourSyncFunction(name: string) {
   return message
 }
 
-const response = await tryCatchSync(() => yourSyncFunction('Steve'), 'Error creating message')
+const response = tryCatchSync(() => yourSyncFunction('Steve'), 'Error creating message')
 ```
