@@ -1,12 +1,14 @@
 {
   "name": "try-catcher-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ghall89/try-catcher-ts"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts"
   },
