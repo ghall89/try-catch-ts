@@ -1,4 +1,4 @@
-# try-catch-wrapper
+# try-catcher-ts
 
 A type-safe try/catch wrapper
 
@@ -6,13 +6,13 @@ A type-safe try/catch wrapper
 
 ```bash
 # npm
-npm install try-catch-wrapper
+npm install try-catcher-ts
 # pnpm
-pnpm add try-catch-wrapper
+pnpm add try-catcher-ts
 # yarn
-yarn add try-catch-wrapper
+yarn add try-catcher-ts
 # bun
-bun add try-catch-wrapper
+bun add try-catcher-ts
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ There are 2 functions you can call, depending on if you'd like to wrap a syncron
 For asyncronous functions, simply import the `tryCatch()` function. It takes any asyncronous function as the first argument, and, optionally, a string to display when an error is thrown, and either returns the result of your function, or throws an error.
 
 ```javascript
-import { tryCatch } from 'try-catch-wrapper'
+import { tryCatch } from 'try-catcher-ts'
 
 async function yourAsyncFunction(id: string) {
   const res = await fetch(`https://example.com/api/item/${id}`)
@@ -40,7 +40,7 @@ const response = await tryCatch(() => yourAsyncFunction('123'), 'Error fetching 
 For asyncronous functions, simply import the `tryCatch()` function. It takes any asyncronous function as the first argument, and, optionally, a string to display when an error is thrown, and either returns the result of your function, or throws an error.
 
 ```javascript
-import { tryCatchSync } from 'try-catch-wrapper'
+import { tryCatchSync } from 'try-catcher-ts'
 
 function yourSyncFunction(name: string) {
   const message = `Hello, ${name}!`

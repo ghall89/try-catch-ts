@@ -1,17 +1,17 @@
 {
-  "name": "try-catch-wrapper",
+  "name": "try-catcher-ts",
   "version": "0.1.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghall89/try-catch-wrapper"
+    "url": "git+https://github.com/ghall89/try-catcher-ts"
   },
   "main": "index.js",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts"
   },
   "keywords": [],
-  "author": "ghall89",
+  "author": "ghalldev",
   "license": "MIT",
   "packageManager": "pnpm@10.12.1",
   "devDependencies": {
