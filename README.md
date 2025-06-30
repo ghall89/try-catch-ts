@@ -37,7 +37,7 @@ const response = await tryCatch(() => yourAsyncFunction('123'), 'Error fetching 
 
 ### Sync
 
-For asyncronous functions, simply import the `tryCatch()` function. It takes any asyncronous function as the first argument, and, optionally, a string to display when an error is thrown, and either returns the result of your function, or throws an error.
+For syncronous functions, simply import the `tryCatchSync()` function. It takes any syncronous function as the first argument, and, optionally, a string to display when an error is thrown, and either returns the result of your function, or throws an error.
 
 ```javascript
 import { tryCatchSync } from 'try-catcher-ts'

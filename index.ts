@@ -1,4 +1,4 @@
-const DEFAULT_ERROR = "Unexpected error";
+const DEFAULT_ERROR = 'Unexpected error';
 
 /**
  * Executes an asynchronous action and adds contextual error handling.
