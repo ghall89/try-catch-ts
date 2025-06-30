@@ -1,0 +1,29 @@
+{
+  "name": "try-catch-ts",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghall89/try-catch-ts"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@swc/core": "^1.12.7",
+    "@types/node": "^20",
+    "eslint": "^8.57.1",
+    "eslint-plugin-prettier": "^5.5.0",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "tsup": "^8.5.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5"
+  }
+}
